@@ -1,0 +1,25 @@
+@font-face {
+   font-family:takota;
+   src: url(../font/Takota.ttf);
+ }
+ @font-face {
+   font-family:blinks;
+   src: url(../font/BLINKIES.ttf);
+ }
+ #recipe{
+font-family:takota;
+font-size:90px;
+ }
+#cake{
+font-size:45px;
+font-family:takota;
+text-align:center;
+}
+#jota{
+font-size:38px;
+font-family:takota;
+}
+li{
+	font-size:18px;
+}
+
