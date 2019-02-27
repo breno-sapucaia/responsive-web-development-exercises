@@ -23,3 +23,47 @@ li{
 	font-size:18px;
 }
 
+.butons{
+  display:block;
+  float:right;
+  margin-right:10px;
+}
+.G{
+position:relative;
+display:block;
+float:right;
+padding-top:5px;
+padding-right:10px;
+}
+.I{
+  position:relative;
+  display:block;
+  float:right;
+  padding-top:5px;
+  padding-right:10px;
+  }
+.a{
+  font-size:14px;
+  font-style:Arial, sans-serif;
+}
+  
+
+/* link que ainda não foi visitado */
+a:link {
+  color: rgb(94, 94, 94);
+}
+
+/* link que foi visitado */
+a:visited {
+   color: rgb(94, 94, 94);
+}
+
+/* mouse over */
+a:hover {
+   color: rgb(94, 94, 94);
+}
+
+/* link selecionado */
+a:active {
+   color: rgb(94, 94, 94);
+}
