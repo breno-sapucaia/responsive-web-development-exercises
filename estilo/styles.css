@@ -46,8 +46,8 @@ padding-right:10px;
   font-size:14px;
   font-style:Arial, sans-serif;
 }
-  
 
+  
 /* link que ainda não foi visitado */
 a:link {
   color: rgb(94, 94, 94);
@@ -66,4 +66,34 @@ a:hover {
 /* link selecionado */
 a:active {
    color: rgb(94, 94, 94);
+}
+
+
+.logo{
+  
+  display:block;
+  margin-top:20%;
+  position: absolute;
+  width:100%;
+}
+.goglis{
+  margin-left:41%;
+}
+.box{
+  display:block;
+  margin-top:30%;
+  position: absolute;
+  width:100%;
+  margin-left:37%;
+}
+.k{
+border-radius:20px;
+width:360px;
+height:26px;
+}
+.pg{
+  background-color:white;
+}
+.pg:hover{
+  border: 2px solid black;
 }
