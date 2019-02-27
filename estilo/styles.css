@@ -81,19 +81,20 @@ a:active {
 }
 .box{
   display:block;
-  margin-top:30%;
+  margin-top:25%;
   position: absolute;
-  width:100%;
-  margin-left:37%;
+  width:365px;
+  margin-left:38%;
+ 
+  margin-right:50%;
 }
 .k{
 border-radius:20px;
 width:360px;
 height:26px;
 }
-.pg{
-  background-color:white;
-}
-.pg:hover{
-  border: 2px solid black;
+
+
+p{
+  text-align:center;
 }
