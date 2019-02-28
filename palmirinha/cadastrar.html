@@ -40,7 +40,7 @@
         <input type="file" name="foto" id="foto" alt="Envie a foto da receita">
       </label></p>
       <p><label for="descricao">Descriçao da receita:
-        <textarea placeholder="Digite uma pequena descrição sobre a receita" cols="50" rows="10"></textarea>
+        <textarea id="descricao" name="descricao"placeholder="Digite uma pequena descrição sobre a receita" cols="50" rows="10"></textarea>
       </label></p>
       <p>
         <fieldset>
@@ -64,8 +64,30 @@
               <input type"text" name="descingrendiente" id="descingrendiente" size="30" placeholder="Digite o nome do ingrediente">
             </label>
           </p>
+          <button id="btnAdicionar">Adicionar ingrediente</button>
         </fieldset>
       </p>
+      <p>
+        <h5>Ingredientes Adicionados</h5>
+          <table>
+            <thead>
+              <tr>
+                <th>Quantidade</th>
+                <th>Descrição</th>
+              </tr>
+            </thead>
+            <tbody id="tbl-ingredientes">
+              <tr id="ingrediente">
+                <td id="qtde-ingrediente"></td>
+                <td id="desc-ingrediente"></td>
+              </tr>
+
+            </tbody>
+          </table>
+      </p>
+      <p><label for="modo-preparo">Digite o modo de preparo:
+        <textarea id="modo-de-preparo" name="modo-de-preparo" placeholder="Digite uma pequena descrição sobre a receita" cols="50" rows="10"></textarea>
+      </label></p>
     </div>
 
     <div id="rodape">
