@@ -1,0 +1,81 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Receitas Sra. X</title>
+  </head>
+  <body>
+
+    <div id="cabecalho">
+      <div id="banner">
+        <!-- Inserir a figura do banner -->
+      </div>
+      <div id="menu">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="cadastrar.html">Cadastrar Receita</a></li>
+          <li><a href="#">Categoria de Receitas</a></li>
+          <li><a href="#">Contato</a></li>
+        </ul>
+      </div>
+      <div id="links-importantes">
+        <p id="redes-sociais">
+            <img src="img/face.png"/>
+            <img src="img/insta.png"/>
+            <img src="img/tw.png"/>
+        </p>
+        <p>
+          <input type="search" name="pesquisa" />
+          <input type="image" name="lupa" src="img/lupasso.png" alt="pesquisar"/>
+
+        </p>
+    </div>
+
+    <div id="corpo">
+      <h1>New Recipe</h1>
+      <p><label for="nome">Nome da Receita:
+        <input type="text" nome="nome" id="nome" placeholder="Digite aqui o nome da receita" size="50 ">
+      </label>
+      </p>
+      <p><label for="foto">Selecione a foto da receita:
+        <input type="file" name="foto" id="foto" alt="Envie a foto da receita">
+      </label></p>
+      <p><label for="descricao">Descriçao da receita:
+        <textarea placeholder="Digite uma pequena descrição sobre a receita" cols="50" rows="10"></textarea>
+      </label></p>
+      <p>
+        <fieldset>
+          <legend>Novo Ingrediente:</legend>
+            <p>
+              <label for="qtde">Quantidade
+                <input type="number" name="qtde" id="qtde" min="1" max="1000" />
+              </label>
+            </p>
+            <p>
+              <label for="unidade">Unidade de Medida
+                <select>
+                  <option value"cs">colher de sopa</option>
+                  <option value"cc">colher de chá</option>
+                  <option value"cx">xícara</option>
+                </select>
+              </labe>
+            </p>
+            <p>
+            <label for="descingrendiente">Descriçao:
+              <input type"text" name="descingrendiente" id="descingrendiente" size="30" placeholder="Digite o nome do ingrediente">
+            </label>
+          </p>
+        </fieldset>
+      </p>
+    </div>
+
+    <div id="rodape">
+      <p>Desenvolvido por 1TDS - FIAP &copy; 2019</p>
+      <p id="redes-sociais">
+          <img src="img/face.png"/>
+          <img src="img/insta.png"/>
+          <img src="img/tw.png"/>
+      </p>
+    </div>
+
+  </body>
+</html>
