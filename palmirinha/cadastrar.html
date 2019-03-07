@@ -32,6 +32,7 @@
 
     <div id="corpo">
       <h1>New Recipe</h1>
+      <form action="salvar.jsp" method="POST">
       <p><label for="nome">Nome da Receita:
         <input type="text" nome="nome" id="nome" placeholder="Digite aqui o nome da receita" size="50 ">
       </label>
@@ -116,12 +117,37 @@
                 Arroz
               </label>
             </td>
-            <td></td>
-            <td></td>
+            <td>
+              <label>
+                <input type="checkbox" name="acompanhamentos" value="feijao" />
+                Feijão
+              </label>
+            </td>
+            <td>
+                <input type="checkbox" name="acompanhamentos" value="fritas" />
+                batata fritas
+            </td>
+          </tr>
+          <tr>
+            <td>
+                <input type="checkbox" name="acompanhamentos" value="salada" />
+                Salada
+            </td>
+            <td>
+                <input type="checkbox" name="acompanhamentos" value="doce" />
+                Batata Doce
+            </td>
+            <td>
+                <input type="checkbox" name="acompanhamentos" value="pure" />
+                Purê de Batata
+            </td>
           </tr>
         </table>
       </p>
-
+      <p>
+        <input type="submit" value="salvar-receita"/>
+      </p>
+    </form>
     </div>
 
     <div id="rodape">
