@@ -88,6 +88,40 @@
       <p><label for="modo-preparo">Digite o modo de preparo:
         <textarea id="modo-de-preparo" name="modo-de-preparo" placeholder="Digite uma pequena descrição sobre a receita" cols="50" rows="10"></textarea>
       </label></p>
+      <p>
+        Dificudade:
+        <input id="facil" type="radio" name="dificuldade" value="f" onclick='clique()'/>
+        <label for="facil">Mel na chupeta</label>
+        <input id="medio" type="radio" name="dificuldade" value="m"/>
+        <label for="medio">Não faça em casa</label>
+        <input id="dificil" type="radio" name="dificuldade" value="d"/>
+        <label for="dificil">Chame um adulto responsável</label>
+      </p>
+      <p>
+        Tempo de preparo: 
+        <input type="time" name="tempo-de-preparo"/>
+      </p>
+      <p>
+        Rendimentos:
+        <input type="number" name="rendimento" min="1" max="100">
+        porções
+      </p>  
+      <p>
+        Acompanhamentos <br />
+        <table>
+          <tr>
+            <td>
+              <label>
+                <input type="checkbox" name="acompanhamentos" value="arroz" />
+                Arroz
+              </label>
+            </td>
+            <td></td>
+            <td></td>
+          </tr>
+        </table>
+      </p>
+
     </div>
 
     <div id="rodape">
@@ -98,6 +132,11 @@
           <img src="img/tw.png"/>
       </p>
     </div>
-
+    <script type="text/javascript">
+    function clique(){
+        teste = "Você selecionou a opção fácil"
+        alert(teste);
+    }
+    </script>
   </body>
 </html>
