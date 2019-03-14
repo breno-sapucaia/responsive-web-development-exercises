@@ -4,76 +4,54 @@
         <title>Site do Breno</title>
         <style type="text/css">
             *{
+                font:13px Helvetica, Arial, Sans-Serif;
                 padding:0;
                 margin:0;
             }
-            
+            h1{
+                font-size:40px;
+                font-weight: bold;
+                color:white;
+                padding: 30px 0 0 0;
+            }
+            h2{
+                font-size:30px;
+                font-weight: bold;
+                color:white;
+                padding: 30px 0 0 0;
+            }
+            #cabecalho p {
+                font-size:20px;
+                color: #a30000;
+                padding: 0 0 10px 0;
+                margin:15px 0;
+            }
             #cabecalho{
-                background-color: #2A484E;
-                padding:30;
-            }
-            #cabecalho h1{
-                font: 50px Verdana,Arial,Sans-Serif;
-                color: #DDEFE3;
+                background-color: darkgrey;
                 text-align: center;
+                border-bottom: 6px rgb(134, 134, 134) solid;
+                margin-bottom:20px;
             }
-            #esquerda h2{
-                
-                background-color:#2A484E;
-                border-radius:5px;
-                font-size:20px;
-                color:#DDEFE3;    
-                
-            }
-            #esquerda p{
-                padding:9;
-            }
-            #esquerda {
-                margin-right:30%;
-                margin-left:5px;
-                margin-top:10px;
-            }
-            #esquerda ul{
-                padding:20;
-            }
-            /*#direita{
-                float:right;
-                padding:45;
-                margin-top:-320px;
-                margin-right:30px;
-                background-color:#DDEFE3;
-                border-radius:50px;
-                widows: 400px;
-            }*/
-            #milos{
-                border-radius:50%;
-                height:     124px;
-                
             
-
-            }
-            /*a{
-                color:#Ce4a50;  
-            }
-            #direita ul{
+            #contato{
+                width:400px;
+                padding:40px;
+                background-color: lightgrey;
                 text-align:center;
-                list-style: none;
-            }*/
-            
-            #rodape {
-                position:absolute;
-                bottom:0;
-                width:95%;
-                background-color: #2A484E;
-                padding:30; 
+                margin: 0 auto;
+                border-radius:16px 50px 40px 80px;
             }
-            #rodape h4{
-                background-color:#2A484E;
-                border-radius:5px;
-                font-size:20px;
-                color:#DDEFE3; 
-                text-align:center; 
+            #contato p{
+                font-size: 18px;
+                margin: 5px;
+                font-weight: bolder;
             }
+            #secao{
+                width:80%;
+                margin: 20px 0 auto;
+                background-color:lightgrey;
+            }
+
         </style>
 
     </head>
@@ -81,21 +59,36 @@
         <!-- cabeçalho -->
         <div id="cabecalho">
             <h1>Breno Magalhães - Site Pessoal</h1>
+            <p>Estudante</p>
         </div>
         <!-- Fim/Cabealho -->
-        <div id="corpo">
-            <div id="esquerda">
-            <div id="titulo">
-                <h2>Quem eu sou?</h2>
-            </div>
+        
+            
+                <div id="contato">
+                    <p> Telefone: +55 (11) 941531558</p>
+                    <p>E-mail: brenoss.magalhaes@gmail.com</p>
+                    <p>linkedIn: https://www.linkedin.com/in/breno-magalh%C3%A3es-b52425180/</p>
+                </div>
+
+                <div id="secao">
+                    <h2>Sumario</h2>
+                    <p>Superior - Análise e Desenvolvimento de Sistemas na escola FIAP (Faculdade de Informática e Administração Paulista) no período <br/>
+                        matutino, bolsita parcial de 50% através do PROUNI.</p>
+                    <h2></h2>
+                    <h3></h3>
+                </div>
+            <!--</div>
+            
+                <h1>Quem eu sou?</h1>
+           
             <p>Estudante para desenvolver software com interesse em arte, tecnlogia, em busca de ascensão profissional</p>
-            <h3>Cursando:</h3>
+            <h1>Cursando:</h1>
             <p>
-                <b>Superior</b> - Análise e Desenvolvimento de Sistemas na escola FIAP (Faculdade de Informática e Administração Paulista) no período <br/>
+                Superior - Análise e Desenvolvimento de Sistemas na escola FIAP (Faculdade de Informática e Administração Paulista) no período <br/>
                 matutino, bolsita parcial de 50% através do PROUNI.
             </p>
             <p>
-                <b>Técnico</b> - Desenvolvimento de Sistemas na ETECIA (Escola Técnica Estadual Irmã Agostina) no período noturno.
+                Técnico - Desenvolvimento de Sistemas na ETECIA (Escola Técnica Estadual Irmã Agostina) no período noturno.
             </p>
             <h2>Interesses de Estudos</h2>
             <ul>
@@ -105,17 +98,6 @@
                 <li>Back-End</li>
                 <li>Automatização de ferramentas funcionais</li>
             </ul>
-        </div>
-            <div id="direita">
-                
-                    <img id="milos" src="img/milos.jpg"/>
-
-                <ul>
-                
-                    <li><a href="#">Quem sou eu?</a></li>
-                    <li><a href="#" onclick="clique()">Contato</a></li>
-                </ul>   
-            </div>
         
             <div id="rodape">
                 <h4> &copy; 2019 Breno Sapucaia dos Santos Magalhães
@@ -131,7 +113,7 @@
             linkedIn: https://www.linkedin.com/in/breno-magalh%C3%A3es-b52425180/`
             alert(teste);
         }
-        </script>
+        </script>-->
     </body>
     
 </html>

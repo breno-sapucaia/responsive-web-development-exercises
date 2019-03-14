@@ -1,0 +1,82 @@
+*{
+    padding:0;
+    margin:0;
+    font:13px Arial, Verdana, Sans-Serif black;
+  
+  }
+  #banner{
+    
+    background-color:#377c4e;
+    padding:20;
+    text-align:center;
+  }
+
+  #banner h1{
+    font-size:60px;
+    font-family: Verdana, Arial, Sans-Serif;
+    color:#f0f0f0;
+    font-weight:normal;
+  }
+  #banner h2{
+    color: #f8db3d;
+    font-weight:bolder;
+    font-style: italic;
+  }
+#menu{
+    background-color:#060;
+}
+#menu ul{
+    text-align:center;
+
+}
+#menu li{
+    display:inline-block;
+    
+}
+#menu li:last-child{
+    border:none;
+}
+#menu li:last-child a{
+    border:none;
+    border-radius: 0 50px  50px 0;
+}
+#menu li:first-child a{
+    border:none;
+    border-radius: 0 50px  50px 0;
+}
+#menu a{
+    border-right:1px #030 solid;
+    display:inline-block;
+    padding: 20px;
+    text-decoration:none;
+    color:white;
+    font-size:20px;
+    font-weight:bold;
+    font:20 arial;
+}
+#menu a:hover{
+    background-color:white;
+    color:#030;
+    text-decoration:none;
+}
+#menu a:visited {
+    color: white;
+
+}
+  #redes-sociais img{
+    height:24px;
+  }
+
+  #esquerda{
+      width:60%;
+      background-color: red;
+      float:left;
+  }
+  #direita{
+      float:left;
+      width:25%;
+      background-color:black;
+  }
+  #rodape{
+      clear:both;
+  }
