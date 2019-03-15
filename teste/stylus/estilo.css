@@ -107,7 +107,7 @@ hr{
 }
 
 #direita{
-    background-color:rgb(201, 201, 201);
+    
     float:left;
     width:600px;
     height:900px;
@@ -116,7 +116,7 @@ hr{
 #esquerdinha{
     width:250px;
     height:900px;
-    
+    float:left;
 
 }
 
@@ -144,6 +144,17 @@ hr{
     letter-spacing: -.035em;
     color:rgb(101, 164, 0);
 }
+.formatacaoLista-box-direita{
+    padding:8px;
+    margin-left:8px;
+}
+.formatacao-Item-Lista-box-direita{
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 1rem;
+    line-height: 1.25;
+    letter-spacing: -.035em;
+    color:rgb(0, 10, 143);
+}
 #corpo{
     clear:both;
     display:flex;
@@ -152,4 +163,17 @@ hr{
     align-items: center;
     margin-top:150px;
 }
-   
+#bordas{
+    float:left;
+    margin-left:50px;
+    border:1px rgb(201, 201, 201) solid;
+    border-style: inset;
+    height:900px;
+}  
+#direitinha{
+    
+    width:250px;
+    height:900px;
+    float:left;
+    margin-left:25px;
+}
