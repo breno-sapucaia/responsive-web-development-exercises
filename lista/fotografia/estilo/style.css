@@ -1,0 +1,67 @@
+*{
+    padding:0;
+    margin:0;
+}
+#cabecalho{
+    width:0 auto;
+    height:100px;
+    background-color:red;
+}
+#cabecalho h1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-top:30px;   
+    letter-spacing:9px;
+}
+
+
+/* Classes*/
+.divisaoDeImagem{
+    margin-top:50px;
+    margin-left:10%;
+    float:left;
+    width:245px;
+    height:230px;
+   
+}
+/* fim Classes */
+#img1{
+    float:left;
+}
+.imgp{
+    font: normal normal normal 16px/1.3em 'open sans',sans-serif;
+    color:#555555;
+    text-align:center;
+    padding:5px;
+}
+#linkP{
+    width:0 auto;
+    height:25px;
+    text-align:center;
+}
+#linkP a{
+    width:0 auto;
+    text-align:center;
+    font: normal normal normal 16px/1.3em 'open sans',sans-serif;
+    margin: calc(-1 * 1px) 1px 0;
+    padding:10px;
+    text-decoration:none;
+    color:#A30000;
+}
+#linkP a:hover{
+    
+    font: normal normal normal 16px/1.3em 'open sans',sans-serif;
+    transition: color 0.4s ease 0s;
+    color: white;
+    margin: calc(-1 * 1px) 1px 0;
+    white-space: nowrap;
+    background-color: #333333;
+    border-radius:5px;
+    padding:10px;
+}
+#superior{
+    text-align:center;
+    width:0 auto;
+    height:300px;
+    background-color:blue;
+}
