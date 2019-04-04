@@ -60,7 +60,7 @@ btn.addEventListener("click",function(e){
         erroc.innerHTML ="<p style='color:red'><sup>*</sup>Digite Crédito ou Débito</p>"; 
     }
     datas = data.split('-')
-    console.log(datas[1])
+    if (datas[1] != )
 })
 
 
