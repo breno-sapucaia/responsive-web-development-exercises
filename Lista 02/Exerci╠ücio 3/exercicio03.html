@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Exercício 03 - HTML</title>
+</head>
+<body>
+	<center>
+		<table border="1">
+			<caption><b><i>Sudeste x Sul</i></b></caption>
+			<tr>
+				<th scope="col">País</th>
+				<th colspan="2" scope="col">Estados</th>
+				<th scope="col">Cidades</th>
+			</tr>
+			<tr>
+				<th rowspan="21" scope="row">Brasil</th>
+				<th rowspan="12" scope="row">Sudeste</th>
+				<td rowspan="3">São Paulo</td>
+				<td><i>São Paulo</i></td>
+			</tr>
+			<tr>
+				<td><i>Guarulhos</i></td>
+			</tr>
+			<tr>
+				<td><i>Campinas</i></td>
+			</tr>
+			<tr>
+				<td rowspan="3">Rio de Janeiro</td>
+				<td><i>Rio de Janeiro</i></td>
+			</tr>
+			<tr>
+				<td><i>São Gonçalo</i></td>
+			</tr>
+			<tr>
+				<td><i>Duque de Caxias</i></td>
+			</tr>
+			<tr>
+				<td rowspan="3">Minas Gerais</td>
+				<td><i>Belo Horizonte</i></td>
+			</tr>
+			<tr>
+				<td><i>Uberlândia</i></td>
+			</tr>
+			<tr>
+				<td><i>Contagem</i></td>
+			</tr>
+			<tr>
+				<td rowspan="3">Espírito Santo</td>
+				<td><i>Vitória</i></td>
+			</tr>
+			<tr>
+				<td><i>Vila Velha</i></td>
+			</tr>
+			<tr>
+				<td><i>Serra</i></td>
+			</tr>
+			<tr>
+				<th rowspan="9" scope="row">Sul</th>
+				<td rowspan="3">Paraná</td>
+				<td><i>Curitiba</i></td>
+			</tr>
+			<tr>
+				<td><i>Maringuá</i></td>
+			</tr>
+			<tr>
+				<td><i>Londrina</i></td>
+			</tr>
+			<tr>
+				<td rowspan="3">Santa Catarina</td>
+				<td><i>Florianópolis</i></td>
+			</tr>
+			<tr>
+				<td><i>Joinville</i></td>
+			</tr>
+			<tr>
+				<td><i>Blumenau</i></td>
+			</tr>
+			<tr>
+				<td rowspan="3">Rio Grande do Sul</td>
+				<td><i>Porto Alegre</i></td>
+			</tr>
+			<tr>
+				<td><i>Pelótas</i></td>
+			</tr>
+			<tr>
+				<td><i>Caxias do Sul</i></td>
+			</tr>
+		</table>
+	</center>
+</body>
+<script>
+	let x = 0
+	document.querySelector('i').textContent = "Tabelinho Show"
+	const trs = document.querySelectorAll('tr')
+	trs.forEach((tr,i) => {
+		x = parseInt(i)% 2
+		x == 0 ? tr.style.backgroundColor='#777'  :   tr.style.backgroundColor='#eee'
+	})
+</script>
+</html>

@@ -1,0 +1,78 @@
+* {
+	font-family: Arial;
+}
+
+input {
+	border: 1px #333 solid;
+	background-color: #ddd;
+	font-size: 14px;
+	padding: 5px;
+}
+
+
+h1 {
+	color: darkgrey;
+	text-align: center;
+}
+
+.campo {
+	margin-bottom: 20px;
+	display: block;
+	clear: both;
+}
+
+.campo input {
+	margin-right: 20px;
+}
+
+.campo p {
+	margin-bottom: 0;
+}
+
+.campo-grande {
+	clear: both;
+	margin-bottom: 20px;
+}
+.campo-grande input{
+	display: block;
+	width: 660px;
+}
+.campo-pequeno {
+	float: left;
+	margin: 0 50px 20px 0;
+}
+.campo-pequeno input {
+	display: block;
+	width: 300px;
+}
+
+.campo-pequeno select {
+	border: 1px #333 solid;
+	background-color: #ddd;
+	font-size: 14px;
+	padding: 5px;
+	display: block;
+	width: 310px;
+}
+
+fieldset {
+	margin: 0 auto;
+	width: 725px;
+}
+
+button {
+	font-size: 14px;
+	padding: 10px;
+}
+
+.get{
+	display:flex;
+	border:1px solid #000;
+	width:100%;
+	flex-direction:row;
+	justify-content: space-evenly;
+}
+.get p{
+	font-size:24px;
+	
+}

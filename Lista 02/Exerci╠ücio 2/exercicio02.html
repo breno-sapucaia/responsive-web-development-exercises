@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Exercício 02</title>
+	<link rel="stylesheet" type="text/css" href="estilo.css" />
+</head>
+<body>
+	<h1>Ficha Cadastral</h1>
+	<fieldset>
+		<legend>Dados Pessoais:</legend>
+		<form method="POST" action="cadastrar.html">
+			<div class="campo-grande">
+				<label>Nome:
+					<input type="text" name="nome"/>
+				</label>
+			</div>
+			<div class="campo-pequeno">
+				<label>	RG:
+				<input type="text" name="rg"/>
+				</label>
+			</div>
+			<div class="campo-pequeno">
+				<label>
+				CPF:
+				<input type="text" name="cpf"/>
+				</label>
+			</div>
+			<div class="campo-grande">
+				<label>
+				Endereço:
+				<input type="text" name="endereco"/>
+				</label>
+			</div>
+			<div class="campo-pequeno">
+				<label>
+				Gênero:
+				<select id="cb">
+					<option>Feminino</option>
+					<option>Masculino</option>
+				</select>
+				</label>
+			</div>
+			<div class="campo-pequeno">
+				<label>
+					Data de Nascimento:
+					<input type="text" name="datanasc"/>
+				</label>
+			</div>
+			<div class="campo">
+				<p>Situação Civil:</p>
+				<label>
+					Solteira(o)<input type="radio" name="civil" value="Solteiro(a)">
+				</label>
+				<label>
+					Casada(o)<input type="radio" name="civil" value="Casada(o)">
+				</label>
+				<label>
+					Viúva(o)<input type="radio" name="civil" value="Viúvo(a)">
+				</label>
+			</div>
+			<div style="text-align: center;">
+				<button>Cadastrar</button>
+			</div>
+		</form>
+	</fieldset>
+	<div class="get">
+		<p>Nome: <span id="1"></span></p>
+		<p>RG: <span id="2"></span></p>
+		<p>CPF: <span id="3"></span></p>
+		<p>Endereco: <span id="4"></p>
+		<p>Data Nascimento: <span id="6"></span></p>
+		<p>Genero: <span id="5"></span></p>
+		<p>Situação Civil: <span id="7"></span></p>
+	</div>
+</body>
+<script>
+	const form = document.querySelector('form');
+	const inputs = document.querySelectorAll('input');
+	const spans = document.querySelectorAll('span')
+	let i = 0
+	const btn = document.querySelector('button');
+	
+	
+	btn.addEventListener('click',function(e){
+		e.preventDefault();
+		
+		for(let i = 0; i<inputs.length; i++){
+			console.log(spans[i])
+			console.log(inputs[i])
+			if (i == 6){
+				spans[6].innerHTML= document.querySelector('input[name="civil"]:checked').value;
+			}else if(i == 5){
+				var e = document.getElementById("cb");
+				var itemSelecionado = e.options[e.selectedIndex].text;
+				spans[5].textContent = itemSelecionado 
+			}else if( i < 6){
+				spans[i].textContent = inputs[i].value;
+			}
+		}
+
+
+
+
+	})
+</script>
+</html>
