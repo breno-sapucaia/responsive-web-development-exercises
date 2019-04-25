@@ -137,3 +137,7 @@ button[disabled=disabled], button:disabled {
 .receita-negativa {
 	background-color: lightcoral;
 }
+
+.erros{
+	color: #a30000;
+}

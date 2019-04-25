@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>Controle Financeiro</title>
-		<link rel="icon" href="favicon.png" type="image/x-icon">
+		<link rel="icon" href="img/favicon.png" type="image/x-icon">
 		<link rel="stylesheet" type="text/css" href="css/reset.css">
 		<link rel="stylesheet" type="text/css" href="css/index.css">
 	</head>
@@ -44,7 +44,7 @@
 							<td class="info-saldo">0</td>
 						</tr>
 
-						<tr class="receita" >
+						<tr class="receita" id="terceira-receita">
 							<td class="info-descricao">Conta de Luz</td>
 							<td class="info-categoria">Débito</td>
 							<td class="info-data">08/10/2017</td>
@@ -52,14 +52,14 @@
 							<td class="info-saldo">0</td>
 						</tr>
 
-						<tr class="receita">
+						<tr class="receita" id="quarta-receita">
 							<td class="info-descricao">Freela</td>
 							<td class="info-categoria">Crédito</td>
 							<td class="info-data">08/10/2017</td>
 							<td class="info-valor">750.00</td>
 							<td class="info-saldo">0</td>
 						</tr>
-						<tr class="receita" >
+						<tr class="receita" id="quinta-receita" >
 							<td class="info-descricao">Cartão Crédito</td>
 							<td class="info-categoria">Débito</td>
 							<td class="info-data">10/10/2017</td>
@@ -73,8 +73,8 @@
 
 			<section class="container">
 			<h2 id="titulo-form">Adicionar nova receita</h2>
-			
-		    <form id="form-adiciona">
+			<ul class="erros"></ul>
+		    <form id="form-adiciona" name="formulario">
 		        <div class="">
 		            <label for="descricao">Descrição:</label>
 		            <input id="descricao" name="descricao" type="text" placeholder="digite a descrição da sua receita" class="campo">
@@ -101,7 +101,7 @@
 			</section>
 		</main>
 
-		<script src="js/principal.js" ></script>
+		<script src="js/professor.js" ></script>
 
 	</body>
 </html>
